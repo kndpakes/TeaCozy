@@ -6,6 +6,9 @@
 	opacity: 0.9;
 	text-align: center;
 	align-content: center;
+	display: block;
+	justify-content: center;
+	margin: 0;
 	
 	}
 
@@ -19,6 +22,7 @@
 	align-items: center;
 	border: 2px solid red;
 	position: fixed;
+	margin: 0;
 }
 		
 #logo img {
@@ -74,7 +78,7 @@ h2, h3, h4 {
 	background-color: black;
 	align-items: center;
 	justify-content: center;
-	
+	padding: 5px;
 }
 	
 
@@ -113,7 +117,7 @@ h2, h3, h4 {
 	justify-content: space-around;
 	align-items: center;
 	align-content: center;
-	opacity: 1;
+	
 	border: 2px solid red;
 	width: 1200px;
 	height: 500px;
@@ -123,17 +127,18 @@ h2, h3, h4 {
 .locations img {
 	height: 500px;
 	width: 1200px;
-	margin: 20px;
+	
 }
 
 .locations h2 {
 	background-color: transparent;
 	
+	
 }
 
 .teastores {
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
 	align-items: center;
 	align-content: center;
 	opacity: 1;
@@ -152,6 +157,9 @@ h2, h3, h4 {
 	justify-content: center;
 	display: flex;
 	flex-direction: column;
+	margin-left: 20px;
+	margin-right: 20px;
+	opacity: 1;
 
 	
 }
