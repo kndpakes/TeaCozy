@@ -1,16 +1,15 @@
-.container {
-	background-color: black;
-	font-family: Helvetica;
-	color: seashell;
-	font-size: 22px;
-	opacity: 0.9;
-	text-align: center;
-	align-content: center;
-	display: block;
-	justify-content: center;
+
+body {
 	margin: 0;
-	
-	}
+	display: flex;
+	justify-content: center;
+    font-family: "Helvetica", sans-serif;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    font-size: 22px;
+    text-align: center;
+}	
 
 #header {
 	display: flex;
@@ -20,9 +19,7 @@
 	background-color: black;
 	z-index: 1;
 	align-items: center;
-	border: 2px solid red;
 	position: fixed;
-	margin: 0;
 }
 		
 #logo img {
@@ -33,14 +30,14 @@
 .nav {
 	text-align: right;
 	flex-grow: 1;
-	}
+}
 
 .nav li {
 	display: inline-block;
 	font-size: 22px;
 	padding-right: 20px;
 	font-family: Helvetica;
-	}	
+}	
 
 a {
 	color: seashell;
@@ -54,7 +51,6 @@ a {
 	background-color: black;
 	width: 1200px;
 	height: 700px;
-	border: 2px solid red;
 	padding-top: 70px;
 	align-content: center;
 	display: flex;
@@ -65,8 +61,6 @@ a {
 	align-items: center;
 	align-content: center;
 	width: 100%;
-	
-	
 }
 
 #banner img {
@@ -80,15 +74,11 @@ h2, h3, h4 {
 	justify-content: center;
 	padding: 5px;
 }
-	
 
-.main {
-	
-}
 .teaofthemonth {
 	display: block;
 	width: 1200px;
-	
+	margin-top: 80px;
 }
 
 .menu {
@@ -99,17 +89,14 @@ h2, h3, h4 {
     justify-content: center;
 	padding-left:100px;
 	padding-bottom: 75px;
-	}
+}
 
 .tea img {
 	height: 200px;
 	width: 300px;
 	padding: 10px;
 	display: block;
-}
-.tea {
-	border: 2px solid red;
-	}
+{
 
 .locations {
 	display: block;
@@ -117,23 +104,20 @@ h2, h3, h4 {
 	justify-content: space-around;
 	align-items: center;
 	align-content: center;
-	
-	border: 2px solid red;
 	width: 1200px;
 	height: 500px;
+	padding-top: 20px;
 }
-
 
 .locations img {
 	height: 500px;
 	width: 1200px;
-	
 }
 
 .locations h2 {
 	background-color: transparent;
-	
-	
+	position: relative;
+	bottom: -15px;
 }
 
 .teastores {
@@ -142,9 +126,9 @@ h2, h3, h4 {
 	align-items: center;
 	align-content: center;
 	opacity: 1;
-	border: 2px solid red;
 	width: 1200px;
 	height: 300px;
+	margin-bottom: 100px;
 }
 
 .store {
@@ -152,7 +136,6 @@ h2, h3, h4 {
 	width: 300px;
 	height: 300px;
 	text-align: center;
-	border: 2px solid red;
 	align-items: center;
 	justify-content: center;
 	display: flex;
@@ -160,8 +143,6 @@ h2, h3, h4 {
 	margin-left: 20px;
 	margin-right: 20px;
 	opacity: 1;
-
-	
 }
 	
 #footer {
@@ -170,16 +151,14 @@ h2, h3, h4 {
 		justify-content: center;
 		width: 1200px;
 		display: block;
-	}
+}
 	
 .contact {
 	color: seashell;
 	height: 200px;
-	border: 2px solid red;
 }	
 
 .copyright {
 	text-align: left;
-	border: 2px solid red;
 	padding-left: 20px;
 }
